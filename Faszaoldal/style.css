@@ -1,0 +1,935 @@
+body {
+    background-color: #C9FFE5;
+    background-image: url("./kepek/faszakep2.jpg") ;
+    background-repeat: repeat;
+    background-size: auto ;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px 800px;
+    padding: 0;
+    overflow: hidden;
+    font-weight: 800;
+
+
+
+
+}
+
+li {
+    float: center;
+    margin: 00px 200px;
+    position: relative;
+    width: 150px;
+    height: 100px;
+
+}
+
+
+li a {
+    display:block;
+    color: black;
+    text-align:center;
+    font-size: 30px;
+    text-decoration: none;
+    border: solid black 4px;
+    border-width: 3px;
+    border-radius: 10%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 50px;
+    width: 150px;
+
+
+}
+
+li a:hover:not(.active) {
+    background-color: #04AA6D;
+    transform: translateY(-10px);
+    transform: translateX(5px);
+    transform: translateZ(5px);
+    transform: scale(1.1);
+    transition: 0.5s;
+    border-radius: 50%;
+}
+
+.aktive {
+    background-color: #04AA6D;
+
+
+}
+
+.c {
+    border: 3px solid black;
+    background-color: lightgreen;
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+    padding: 20px;
+    position: relative;
+    transform: translateY(-20px);
+
+
+
+    
+}
+.kontm{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  flex-wrap: wrap;
+
+ 
+}
+.kontm .dobozm
+{
+  position: relative;
+  width: 340px;
+  height: 450px;
+  color:#fff;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 30px;
+  transition: 0.05s;
+  top: 0px;
+  left: -550px;
+
+}
+
+.kontm .dobozm::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg,black,gray,)
+  
+}
+.kontm .dobozm::after
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg,#4dff03,#00d0ff);
+  filter: blur(50px);
+
+}
+.kontm .dobozm span
+{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  right: 6px;
+  bottom: 6px;
+  background: rgba(0,0,0,0.6);
+  z-index: 2;
+
+
+}
+.kontm .dobozm .kontentm
+{
+  position: relative;
+  z-index: 10;
+  padding: 20px 40px;
+
+}
+.kontm .dobozm .kontentm h2
+{
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.kontm .dobozm .kontentm p
+{
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+}
+
+.kontma{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+  
+   
+  }
+  .kontma .dobozma
+  {
+    position: relative;
+    width: 225px;
+    height: 225px;
+    color:#fff;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    transition: 0.05s;
+    top: -115px;
+    left: 600px;
+  
+  }
+  
+  .kontma .dobozma::before
+  {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(315deg,black,gray,)
+    
+  }
+  .kontma .dobozma::after
+  {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(315deg,#4dff03,#00d0ff);
+    filter: blur(50px);
+  
+  }
+  .kontma .dobozma span
+  {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: rgba(0,0,0,0.6);
+    z-index: 2;
+  
+  
+  }
+  .kontma .dobozma .kontentma
+  {
+    position: relative;
+    z-index: 10;
+    padding: 20px 40px;
+  
+  }
+  .kontma .dobozm .kontentm h2
+  {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .kontma .dobozma .kontentma p
+  {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+  }
+
+
+.kont{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  flex-wrap: wrap;
+
+ 
+}
+.kont .doboz
+{
+  position: relative;
+  width: 320px;
+  height: 400px;
+  color:#fff;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 30px;
+  transition: 0.05s;
+
+}
+.kont .doboz:hover
+{
+  transform: translateY(-20px);
+
+}
+
+.kont .doboz::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg,black,gray,)
+  
+}
+.kont .doboz::after
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg,#4dff03,#00d0ff);
+  filter: blur(50px);
+
+}
+.kont .doboz span
+{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  right: 6px;
+  bottom: 6px;
+  background: rgba(0,0,0,0.6);
+  z-index: 2;
+
+
+}
+.kont .doboz .kontent
+{
+  position: relative;
+  z-index: 10;
+  padding: 20px 40px;
+
+}
+.kont .doboz .kontent h2
+{
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.kont .doboz .kontent p
+{
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+}
+
+
+.kontmab{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  flex-wrap: wrap;
+
+ 
+}
+.kontmab .dobozmab
+{
+  position: relative;
+  width: 340px;
+  height: 350px;
+  color:#fff;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 30px;
+  transition: 0.05s;
+  left: -690px;
+  top: -320px;
+
+}
+
+.kontmab .dobozmab::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg,black,gray,)
+  
+}
+.kontmab .dobozmab::after
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg,#4dff03,#00d0ff);
+  filter: blur(50px);
+
+}
+.kontmab .dobozmab span
+{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  right: 6px;
+  bottom: 6px;
+  background: rgba(0,0,0,0.6);
+  z-index: 2;
+
+
+}
+.kontmab .dobozmab .kontent
+{
+  position: relative;
+  z-index: 10;
+  padding: 20px 40px;
+
+}
+.kontmab .dobozmab .kontentmab h2
+{
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.kontmab .dobozmab .kontentmab p
+{
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+}
+.kontb{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  flex-wrap: wrap;
+
+ 
+}
+.kontb .dobozb
+{
+  position: relative;
+  width: 480px;
+  height: 350px;
+  color:#fff;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 30px;
+  transition: 0.05s;
+  left: 25px;
+  top: -500px;
+
+}
+
+.kontb .dobozb::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg,black,gray,)
+  
+}
+.kontb .dobozb::after
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg,#4dff03,#00d0ff);
+  filter: blur(50px);
+
+}
+.kontb .dobozb span
+{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  right: 6px;
+  bottom: 6px;
+  background: rgba(0,0,0,0.6);
+  z-index: 2;
+
+
+}
+.kontb .dobozb .kontentb
+{
+  position: relative;
+  z-index: 10;
+  padding: 20px 40px;
+
+}
+.kontb .dobozb .kontentb h2
+{
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.kontb .dobozbb .kontentb p
+{
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+}
+.kontc{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  flex-wrap: wrap;
+
+ 
+}
+.kontc .dobozc
+{
+  position: relative;
+  width: 800px;
+  height: 750px;
+  color:#fff;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 30px;
+  transition: 0.05s;
+  left: 25px;
+  top: -1100px;
+
+
+}
+
+.kontc .dobozc::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg,black,gray,)
+  
+}
+.kontc .dobozc::after
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(315deg,#4dff03,#00d0ff);
+  filter: blur(50px);
+
+}
+.kontc .dobozc span
+{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  right: 6px;
+  bottom: 6px;
+  background: rgba(0,0,0,0.6);
+  z-index: 2;
+
+
+}
+.kontc .dobozc .kontentc
+{
+  position: relative;
+  z-index: 10;
+  padding: 20px 40px;
+
+}
+.kontc .dobozc .kontentc h2
+{
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.kontc .dobozc .kontentc p
+{
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+}
+.jn {
+  position: relative;
+    text-decoration: none;
+    margin: 10px 100px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.8;
+    border: 3px solid black;
+
+}
+.jnk {
+
+
+  position: relative;
+    text-decoration: none;
+    margin: 10px 750px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.8;
+
+    top: -950px;
+    left: -100px;
+
+}
+.jnkep {
+
+
+  position: relative;
+    text-decoration: none;
+    margin: 10px 750px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+font-size: 30px;
+
+    top: -1000px;
+    left: -100px;
+
+}
+.jnl {
+
+
+  position: relative;
+    text-decoration: none;
+    margin: 10px 900px;
+    padding: 0px;
+    border-radius: 20px;
+    border: 3px solid black;
+    position: relative;
+    left: 42%;
+    top: -140px;
+
+
+
+
+}
+.jnl2 {
+  position: relative;
+    text-decoration: none;
+    margin: 10px 850px;
+    padding: 0px;
+    border-radius: 20px;
+    opacity: 0.8;
+    position: relative;
+    right: 42%;
+    top: -410px;
+}
+.jnla
+{
+  text-decoration: none;
+  margin: 10px 750px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.8;
+  position: relative;
+  top: -800px;
+  left: 400px;
+  font-size: 25px;
+}
+.jnlt
+{
+  text-decoration: none;
+  margin: 10px 750px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.8;
+  position: relative;
+  top: -950px;
+  left: -200px;
+  font-size: 25px;
+}
+      
+.m_jnk{
+position: relative;
+  left: 1250px;
+  top: -1100px;
+}
+      
+.m_jnk2{
+  position: relative;
+    left: 1500px;
+    top: -1705px;
+  }
+  .m_jnk3{
+    position: relative;
+      left: 950px;
+      top: -2310px;
+    }
+          
+    .m_jnk4{
+      position: relative;
+        left: 800px;
+        top: -2205px;
+      }
+      .m_jnk5{
+        position: relative;
+          left: 600px;
+          top: -10px;
+        }
+        .m_jnkr1{
+          position: relative;
+            left: 600px;
+            top: -1010px;
+          }
+          .m_jnkr2{
+            position: relative;
+              left: 600px;
+              top: -1010px;
+            }
+            .m_jnkr3{
+              position: relative;
+                left: 600px;
+                top: -1010px;
+              }
+                                                      
+              .m_jnkr4{
+                position: relative;
+                  left: 600px;
+                  top: -1010px;
+                }
+                      
+                .m_jnkr5{
+                  position: relative;
+                    left: 600px;
+                    top: -1010px;
+                  }
+                  .m_jnkr6{
+                    position: relative;
+                      left: 600px;
+                      top: -1010px;
+                    }
+                    .m_jnkr7{
+                      position: relative;
+                        left: 600px;
+                        top: -1010px;
+                      }
+                                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jnnagy {
+
+    text-decoration: none;
+    margin: 0px 700px;
+    padding: 0px;
+    border-radius: 10px;
+    text-align: center;
+
+    position: relative;
+    top: -700px;
+    left: -690px;
+
+}
+
+
+.legodisz1{
+    opacity: 1;
+}
+.keret{
+    position: relative;
+    left: 42%;
+    top: 200px;
+    width: 1000px;
+    opacity: 2;
+
+}
+.kep
+{
+    position: relative;
+
+    top: 0x;
+    width: 200px;
+    opacity: 2; 
+}
+.robot
+{
+    text-align: center;
+}
+
+
+
+                                    .animate-box div {
+                                        height: 50px;
+                                        width: 50px;
+                                        position: absolute;
+                                        top: 10%;
+                                        left: 10%;
+                                        animation: animate 4s linear infinite;
+                                        background:url("./kepek/legoicon.png");
+
+                                        z-index: -1;
+                                        opacity: 1;
+
+                                    }
+                                    .animate-box div:nth-child(1) {
+                                        top: 20%;
+                                        left: 20%;
+                                        animation: animate 8s linear infinite;
+                                    }
+                                    .animate-box div:nth-child(2) {
+                                        top: 10%;
+                                        left: 89%;
+                                        animation: animate 10s linear infinite;
+                                    }
+                                    .animate-box div:nth-child(3) {
+                                        top: 80%;
+                                        left: 90%;
+                                        animation: animate 5s linear infinite;
+                                    }
+                                    .animate-box div:nth-child(4) {
+                                        top: 65%;
+                                        left: 75%;
+                                        animation: animate 7s linear infinite;
+                                    }
+                                    .animate-box div:nth-child(5) {
+                                        top: 90%;
+                                        left: 10%;
+                                        animation: animate 9s linear infinite;
+                                    }
+                                    .animate-box div:nth-child(6) {
+                                        top: 30%;
+                                        left: 60%;
+                                        animation: animate 5s linear infinite;
+                                    }
+                                    .animate-box div:nth-child(7) {
+                                        top: 70%;
+                                        left: 33%;
+                                        animation: animate 8s linear infinite;
+                                    }
+                                    .animate-box div:nth-child(8) {
+                                        top: 75%;
+                                        left: 60%;
+                                        animation: animate 10s linear infinite;
+                                    }
+                                    .animate-box div:nth-child(9) {
+                                        top: 23%;
+                                        left: 50%;
+                                        animation: animate 6s linear infinite;
+                                    }
+                                    .animate-box div:nth-child(10) {
+                                        top: 35%;
+                                        left: 7%;
+                                        animation: animate 10s linear infinite;
+                                    }
+                                    .animate-box div:nth-child(11){
+                                        top: 50%;
+                                        left: 43%;
+                                        animation: animate 8s linear infinite;
+                                    }
+                                    .animate-box div:nth-child(12) {
+                                        top: 97%;
+                                        left: 45%;
+                                        animation: animate 10s linear infinite;
+                                    }
+                                    @keyframes animate {
+                                      0% {
+                                          transform: scale(0) translateY(0) rotate(50deg);
+                                      }
+                                      100% {
+                                          transform: scale(1.6) translateY(-350px) rotate(360deg);
+                                      }
+                                    }
+/* Slideshow container */
+.slideshow-container {
+    max-width: 200px;
+    position: relative;
+    margin: auto;
+    left: 800px;
+    top: -500px;
+  }
+  
+
+
+  
+  /* The dots/bullets/indicators */
+
+  
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+.a1{
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
+  left: -100px;
+  top: 100px;
+}                                
+.a2{
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
+  left: 100px;
+  top: 500px;
+} 
+.a3{
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
+  left: 300px;
+  top: 100px;
+} 
+.a4{
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
+  left: 300px;
+  top: 300px;
+} 

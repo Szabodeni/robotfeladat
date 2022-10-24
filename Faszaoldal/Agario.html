@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="faszaoldal.js">
+
+    <title>Faszaoldal</title>
+</head>
+
+<body>
+
+    <ul>
+        <li>
+            <a class="active" href="">Föoldal</a>
+        </li>
+        <li><a href="fejlesztése.html">Fejlesztése</a></li>
+        <li>
+            <a href="Képek.html">Képek</a>
+        </li>
+        <li><a href="Rólunk.html">Rólunk</a></li>
+    </ul>
+
+<div class="jnl">
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="legodisz1.png" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="legodisz2.png" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="legodisz3.png" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+</div>
+<div class="jnl2">
+    <img  class="legodisz1" src="./legodisz2.png" alt="legodisz">
+    <p>diocfheddfwedhweodhweohd</p>
+</div>
+    <div class="jnnagy">
+        <h1>Játékaink:</h1>
+        <div class="jn">
+            <h2 href="főoldal.html"></h2>>Agar.io</h2>
+        </div>
+        <div class="jn">
+            <h2>Találj ki egy számot</h2>
+        </div>
+
+    </div>
+
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+
+
+
+
+
+</body>
+
+</html>
